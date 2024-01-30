@@ -1,0 +1,51 @@
+/* Your button CSS file */
+.btn-yours {
+  background-color: #0099ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.btn-yours:hover,
+.btn-yours:focus {
+  background-color: #07c;
+}
+
+.btn-medium {
+  color: #888888;
+  border: 1px solid #888888;
+  padding: 12px 24px;
+  font-weight: lighter;
+  border-radius: 40px;
+  opacity: 0.3;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #888888;
+}
+.btn-treehouse {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #6AD58C;
+  transition: background 0.2s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac261;
+  color: white;
+}
